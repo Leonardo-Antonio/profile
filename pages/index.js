@@ -5,7 +5,7 @@ import { ContainerLayoutDefault } from "../layouts/ContainerLayoutDefault";
 const Index = () => {
   return (
     <ContainerLayoutDefault title="Portafolio">
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center z-50">
         <Link href="/">
           <a>
             <Image

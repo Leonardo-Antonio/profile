@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export const NavBar = () => {
   return (
-    <div className="pl-6 pr-6">
+    <div className="pl-6 pr-6 relative">
+      <div className="absolute circle w-40 h-40"></div>
+      <div className="absolute cuadro w-40 h-40"></div>
+      <div className="absolute circleMd w-40 h-40"></div>
       <div className="flex flex-row justify-between items-center">
         <section>
           <div className="flex items-center">
@@ -23,13 +26,24 @@ export const NavBar = () => {
         <section>
           <div className="flex flex-row items-center">
             <div className="p-5">
+              <Link href="/">
+                <a className="itemNav text-lg font-normal robotoCondensed">
+                  Home
+                </a>
+              </Link>
+            </div>
+            <div className="p-5">
               <Link href="/skills">
-                <a className="itemNav text-lg font-normal robotoCondensed">Skills</a>
+                <a className="itemNav text-lg font-normal robotoCondensed">
+                  Skills
+                </a>
               </Link>
             </div>
             <div className="p-5">
               <Link href="/projects">
-                <a className="itemNav text-lg font-normal robotoCondensed">Proyectos</a>
+                <a className="itemNav text-lg font-normal robotoCondensed">
+                  Proyectos
+                </a>
               </Link>
             </div>
             <div className="p-5">
@@ -42,7 +56,9 @@ export const NavBar = () => {
             <div className="p-5">
               <Link href="/contact-us">
                 <a className="text-lg font-normal robotoCondensed">
-                  <div className="btnNav flex items-center justify-center">Contactame</div>
+                  <div className="btnNav flex items-center justify-center">
+                    Contactame
+                  </div>
                 </a>
               </Link>
             </div>
