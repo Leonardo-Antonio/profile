@@ -52,5 +52,12 @@ export const getAllSkills = () => {
       name: "css",
       src: "/skills/css-3.svg",
     },
+    {
+      name: "redis",
+      src: "/skills/redis.svg"
+    }, {
+      name: "docker",
+      src: "/skills/docker.svg"
+    }
   ];
 };

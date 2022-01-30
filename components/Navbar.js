@@ -47,7 +47,7 @@ export const NavBar = () => {
               </Link>
             </div>
             <div className="p-5">
-              <Link href="/projects">
+              <Link href="/about-me">
                 <a className="itemNav text-lg font-normal robotoCondensed">
                   Acerca de mí
                 </a>
