@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <ContainerLayoutDefault title="Portafolio">
       <div className="flex justify-center items-center z-50">
-        <Link href="/">
+        <Link href="/about-me">
           <a>
             <Image
               src="/images/banner.svg"

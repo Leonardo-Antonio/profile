@@ -7,14 +7,19 @@ export default function AboutMe() {
   return (
     <ContainerLayoutDefault title="Acerca de mi">
       <div className="container mx-auto">
-        <SectionTitle title="Acerca de mi" />
+        <div className="pt-6">
+          <SectionTitle title="Acerca de mi" />
+        </div>
 
         <div className="pt-24 pb-6">
           <div className="flex flex-row gap-10">
             <div className="w-1/2 z-10">
               <p>
                 Hola!. Soy
-                <span className="text-blue-500 font-semibold p-1">Leonardo</span>,
+                <span className="text-blue-500 font-semibold p-1">
+                  Leonardo
+                </span>
+                ,
                 <span className="font-semibold">
                   desarrollador de software - con experiencia en desarrollo de
                   ecommerce, software a medida y automatización de procesos de
@@ -26,7 +31,10 @@ export default function AboutMe() {
                 <br />
                 Siéntase libre de echar un vistazo a mis últimos proyectos en mi
                 <Link href="https://github.com/Leonardo-Antonio">
-                  <a target="_blank" className="text-blue-500 font-semibold p-1">
+                  <a
+                    target="_blank"
+                    className="text-blue-500 font-semibold p-1"
+                  >
                     github
                   </a>
                 </Link>

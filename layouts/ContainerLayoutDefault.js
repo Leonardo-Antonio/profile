@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const ContainerLayoutDefault = ({ children, title }) => {
-  console.log(title);
   return (
     <div>
       <Head>
